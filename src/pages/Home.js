@@ -1,0 +1,32 @@
+import './Home.css';
+export default function Home() {
+    return(
+        <>
+        <img src='https://avatars.githubusercontent.com/u/79810775?v=4' alt="Picture of me"></img>
+        <h1>
+        About Me  
+        </h1>
+        <p className='opening-paragraph'>Hey! My name is Michael Corbishley and I like to build stuff. I'm a third-year student at the 
+        University of Wisconsin - Madison studying computer science who enjoys software
+        engineering, web developement, and computer graphics.
+        </p>
+        <h2>
+            Languages I've Studied
+        </h2>
+        <ul className='list-of-langs'>
+            <li>
+                Java
+            </li>
+            <li>
+                Javascript
+            </li>
+            <li>
+                Python
+            </li>
+            <li>
+                C
+            </li>
+        </ul>
+        </>
+    );
+}

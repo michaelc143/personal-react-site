@@ -1,0 +1,29 @@
+.opening-paragraph {
+    text-align: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.list-of-langs {
+    text-align: center;
+    padding-right: 1rem;
+}
+
+.list-of-langs li {
+    text-align: center;
+    padding-right: 1rem;
+    list-style: none;
+    padding-top: .5rem;
+}
+
+.h2 {
+    padding-left: 2rem;
+}
+
+img {
+    border-radius: 50%;
+    height: 18%;
+    width: 18%;
+    display:inline-block;
+    
+}
