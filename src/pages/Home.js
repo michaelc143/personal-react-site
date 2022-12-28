@@ -14,16 +14,16 @@ export default function Home() {
             Languages I've Studied
         </h2>
         <ul className='list-of-langs'>
-            <li>
+            <li id='java'>
                 Java
             </li>
-            <li>
+            <li id='javaScript'> 
                 Javascript
             </li>
-            <li>
+            <li id='python'>
                 Python
             </li>
-            <li>
+            <li id='cLang'>
                 C
             </li>
         </ul>

@@ -6,7 +6,7 @@ export default function Navbar() {
         <Link to="/" className="site-title">Michael Corbishley</Link>
         <ul>
             <li>
-                <a href="https://github.com/michaelc143">Github</a>
+                <a href="https://github.com/michaelc143" target='_blank' rel='noreferrer'>Github</a>
             </li>
             <li>
                 <Link to="/Contact">Contact</Link>

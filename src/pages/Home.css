@@ -6,24 +6,22 @@
 
 .list-of-langs {
     text-align: center;
-    padding-right: 1rem;
-}
-
-.list-of-langs li {
-    text-align: center;
-    padding-right: 1rem;
+    align-self: left;
     list-style: none;
     padding-top: .5rem;
+    padding-left: 0;
+    padding-right: 0;
 }
 
-.h2 {
-    padding-left: 2rem;
+h2 {
+    text-align: center;
+    margin-right: 0rem;
 }
 
 img {
     border-radius: 50%;
     height: 18%;
     width: 18%;
-    display:inline-block;
-    
+    display: inline;    
+    position: relative;
 }

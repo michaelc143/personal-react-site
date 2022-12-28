@@ -5,19 +5,23 @@ export default function Contact() {
         <h1>
             Contact Me By Filling Out The Form Below
         </h1>
-        <label for="Name" class="fcf-label">Your name</label>
-        <br></br>
-        <input type="text" id="Name" name="Name" class="fcf-form-control" required></input>
-        <br></br>
-        <label for="Email" class="fcf-label">Your email address</label>
-        <br></br>
-        <input type="email" id="Email" name="Email" class="fcf-form-control" required></input>
-        <br></br>
-        <label for="Message" class="fcf-label">Your message</label>
-        <br></br>
-        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-        <br></br>
-        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+        <div>
+            <form action='mailto:corbishleycollege@gmail.com' method='POST' encType='text/plain' name='EmailForm'>
+            <label for="Name">Your name</label>
+            <br />
+            <input type="text" id="Name" name="Name" required></input>
+            <br />
+            <label for="Email">Your email address</label>
+            <br />
+            <input type="email" id="Email" name="Email" required></input>
+            <br />
+            <label for="Message">Your message</label>
+            <br />
+            <textarea id="Message" name="Message" rows="6" maxlength="3000" required></textarea>
+            <br />
+            <button type="submit" value="Submit">Send</button>
+            </form>
+        </div>
         </>
     );
 }
