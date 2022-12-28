@@ -19,6 +19,14 @@ h2 {
     text-decoration: underline;
 }
 
+.nameTag {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    padding-left: 1rem;
+}
+
 img {
     border-radius: 50%;
     height: 100%;
