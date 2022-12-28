@@ -15,41 +15,22 @@ export default function Navbar() {
     document.body.className = theme;
     }, [theme]);
 
-    if(theme === 'light') {
-        return (
-            <div className='light'>
-            <div className="nav">
-                <Link to="/" className="site-title">Michael Corbishley</Link>
-                <ul>
-                    <li>
-                        <a href="https://github.com/michaelc143" target='_blank' rel='noreferrer'>Github</a>
-                    </li>
-                    <li>
-                        <Link to="/Contact">Contact</Link>
-                    </li>
-                </ul>
-            </div>
-            </div>
-            );
-    }
-
-    if(theme === 'dark') {
-        return (
-            <div className='dark'>
-            <div className="nav">
-                <Link to="/" className="site-title">Michael Corbishley</Link>
-                <ul>
-                    <li>
-                        <a href="https://github.com/michaelc143" target='_blank' rel='noreferrer'>Github</a>
-                    </li>
-                    <li>
-                        <Link to="/Contact">Contact</Link>
-                    </li>
-                </ul>
-            </div>
-            </div>
-        );
-    }
-
+    return (
+        <div className="nav">
+            <button className='darkModeBtn' onClick={toggleTheme}>Toggle DarkMode</button>
+            <Link to="/" className="site-title">Michael Corbishley</Link>
+            <ul>
+                <li>
+                    <a href="https://github.com/michaelc143" target='_blank' rel='noreferrer'>Github</a>
+                </li>
+                <li>
+                    <a href="https://drive.google.com/file/d/1y0dF7CcdRCKjVBYazP95FnjD1F4WcUVm/view?usp=sharing" target='_blank' rel='noreferrer'>Resume</a>
+                </li>
+                <li>
+                    <Link to="/Contact">Contact</Link>
+                </li>
+            </ul>
+        </div>
+    );
     
 }

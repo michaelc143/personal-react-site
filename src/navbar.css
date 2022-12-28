@@ -6,24 +6,26 @@ body {
     margin: 0;
 }
 
-.light {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #333;
-    color: white;
-  }
-  
-.dark {
-    background-color: #f1e0cc;
-    color: black;
-}
 
 .nav {
+    background-color: #333;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items:stretch;
     gap: 2rem;
     padding: 1rem;
 }
+
+.darkModeBtn {
+
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    text-decoration: underline;
+    font-size: small;
+}
+
 
 .site-title {
     font-size: 2rem;

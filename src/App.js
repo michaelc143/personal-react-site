@@ -7,21 +7,8 @@ import {Route, Routes} from "react-router-dom";
 import {useState, useEffect} from 'react';
 
 function App() {
-
-  const [theme, setTheme] = useState('light');
-  const toggleTheme = () => {
-    if (theme === 'light')
-      setTheme('dark');
-    else
-      setTheme('light');
-  };
-  useEffect(() => {
-    document.body.className = theme;
-  }, [theme]);
-
   return (
-    <div className={`App ${theme}`}>
-    <button onClick={toggleTheme}>Toggle DarkMode</button>
+    <div className='App ${theme}'>
     <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
