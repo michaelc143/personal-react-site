@@ -18,17 +18,30 @@ body {
 }
 
 .darkModeBtn {
-
+    background-color: #f0f0f0 ;
     border-color: black;
     border-style: solid;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: small;
+}
+
+.darkModeBtn:hover {
+    text-decoration: underline;
+    background-color: #bcbcbc;
 }
 
 
 .site-title {
     font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    padding-left: 3rem;
+
+}
+
+.site-title:hover {
+    text-decoration: underline;
 }
 
 .nav ul {
@@ -47,10 +60,6 @@ body {
     align-items: center;
 }
 
-.nav li.active {
-    background-color: #555;
-}
-
 .nav li:hover {
-    background-color: #777;
+    text-decoration: underline;
 }

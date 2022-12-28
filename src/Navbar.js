@@ -18,7 +18,7 @@ export default function Navbar() {
     return (
         <div className="nav">
             <button className='darkModeBtn' onClick={toggleTheme}>Toggle DarkMode</button>
-            <Link to="/" className="site-title">Michael Corbishley</Link>
+            <Link to="/" className="site-title">Home</Link>
             <ul>
                 <li>
                     <a href="https://github.com/michaelc143" target='_blank' rel='noreferrer'>Github</a>
