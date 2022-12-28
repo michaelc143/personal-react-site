@@ -5,7 +5,7 @@ export default function Contact() {
         <h1>
             Contact Me By Filling Out The Form Below
         </h1>
-        <div>
+        <div className='contactForm'>
             <form action='mailto:corbishleycollege@gmail.com' method='POST' encType='text/plain' name='EmailForm'>
             <label for="Name">Your name</label>
             <br />

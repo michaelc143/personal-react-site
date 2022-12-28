@@ -2,10 +2,9 @@ import './Home.css';
 export default function Home() {
     return(
         <>
+        <div className='totalContainer'>
         <img src='https://avatars.githubusercontent.com/u/79810775?v=4' alt="Picture of me"></img>
-        <h1>
-        About Me  
-        </h1>
+       
         <p className='opening-paragraph'>Hey! My name is Michael Corbishley and I like to build stuff. I'm a third-year student at the 
         University of Wisconsin - Madison studying computer science who enjoys software
         engineering, web developement, and computer graphics.
@@ -13,7 +12,7 @@ export default function Home() {
         <h2>
             Languages I've Studied
         </h2>
-        <ul className='list-of-langs'>
+        {/* <ul className='list-of-langs'>
             <li id='java'>
                 Java
             </li>
@@ -26,7 +25,8 @@ export default function Home() {
             <li id='cLang'>
                 C
             </li>
-        </ul>
+        </ul> */}
+        </div>
         </>
     );
 }
