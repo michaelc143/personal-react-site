@@ -6,9 +6,18 @@ body {
     margin: 0;
 }
 
-.nav {
+.light {
+    font-family: 'Times New Roman', Times, serif;
     background-color: #333;
-    color:white;
+    color: white;
+  }
+  
+.dark {
+    background-color: #f1e0cc;
+    color: black;
+}
+
+.nav {
     display: flex;
     justify-content: space-between;
     align-items:stretch;

@@ -12,7 +12,7 @@ export default function Home() {
         <h2>
             Languages I've Studied
         </h2>
-        {/* <ul className='list-of-langs'>
+         <ul className='list-of-langs'>
             <li id='java'>
                 Java
             </li>
@@ -25,7 +25,7 @@ export default function Home() {
             <li id='cLang'>
                 C
             </li>
-        </ul> */}
+        </ul>
         </div>
         </>
     );

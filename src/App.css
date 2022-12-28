@@ -1,4 +1,11 @@
-.App {
+.light {
   font-family: 'Times New Roman', Times, serif;
+  background-color: #f1e0cc;
+  color: black;
+}
+
+.dark {
+  background-color: #333;
+  color: #fff;
 }
 

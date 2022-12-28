@@ -5,12 +5,8 @@
 }
 
 .list-of-langs {
-    text-align: center;
-    align-self: left;
     list-style: none;
-    padding-top: .5rem;
-    padding-left: 0;
-    padding-right: 0;
+    padding-right: 3rem;
 }
 
 h2 {
@@ -23,12 +19,6 @@ img {
     border-radius: 50%;
     height: 100%;
     width: 20%;
+    padding-top: .5rem;
 }
 
-.totalContainer {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-content: center;
-    gap: 0rem;
-}
