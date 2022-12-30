@@ -7,15 +7,23 @@ body {
 }
 
 
-.nav {
-    background-color: #333;
-    color: white;
+nav {
+    background-color: var(--navbar-bg-color);
+    color: var(--navbar-text-color);
     display: flex;
     justify-content: space-between;
     align-items:stretch;
     gap: 2rem;
     padding: 1rem;
-}
+  }
+  
+  
+  .dark-mode {
+    --navbar-bg-color: #333;
+    --navbar-text-color: #fff;
+  }
+
+
 
 .darkModeBtn {
     background-color: #f0f0f0 ;
@@ -44,7 +52,7 @@ body {
     text-decoration: underline;
 }
 
-.nav ul {
+nav ul {
     padding: 0rem;
     margin: 0rem;
     list-style: none;
@@ -52,7 +60,7 @@ body {
     gap: 1rem;
 }
 
-.nav a{
+nav a{
     color: inherit;
     text-decoration: none;
     height: 100%;
@@ -60,6 +68,6 @@ body {
     align-items: center;
 }
 
-.nav li:hover {
+nav li:hover {
     text-decoration: underline;
 }

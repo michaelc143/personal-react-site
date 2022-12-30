@@ -4,20 +4,11 @@ import {useState, useEffect} from 'react';
 
 export default function Navbar() {
 
-    const [theme, setTheme] = useState('light');
-    const toggleTheme = () => {
-    if (theme === 'light')
-      setTheme('dark');
-    else
-      setTheme('light');
-    };
-    useEffect(() => {
-    document.body.className = theme;
-    }, [theme]);
+    const [darkMode, setDarkMode] = useState(false);
 
     return (
-        <div className="nav">
-            <button className='darkModeBtn' onClick={toggleTheme}>Toggle DarkMode</button>
+        <nav className={darkMode ? 'dark-mode' : ''}>
+            <button onClick={() => setDarkMode(!darkMode)}>Toggle Dark Mode</button>
             <Link to="/" className="site-title">Home</Link>
             <ul>
                 <li>
@@ -30,7 +21,7 @@ export default function Navbar() {
                     <Link to="/Contact">Contact</Link>
                 </li>
             </ul>
-        </div>
+        </nav>
     );
     
 }

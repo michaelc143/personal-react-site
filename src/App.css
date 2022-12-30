@@ -1,11 +1,18 @@
-.light {
-  font-family: 'Times New Roman', Times, serif;
-  background-color: #f1e0cc;
-  color: black;
+
+:root {
+  --main-bg-color: #fff;
+  --main-text-color: #000;
 }
 
-.dark {
-  background-color: #333;
-  color: #fff;
+.light-mode {
+  background-color: var(--navbar-bg-color);
+  color: var(--navbar-text-color);
+}
+
+
+.dark-mode {
+  --main-bg-color: #333;;
+  --main-text-color: rgb(255, 253, 253);
+
 }
 

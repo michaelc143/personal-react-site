@@ -7,8 +7,9 @@ import {Route, Routes} from "react-router-dom";
 import {useState, useEffect} from 'react';
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
   return (
-    <div className='App ${theme}'>
+    <div className={darkMode ? 'dark-mode' : ''}>
     <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
