@@ -4,7 +4,7 @@ import {useState, useEffect} from 'react';
 
 export default function Navbar() {
 
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(false); //darkmode setup stuff 
 
     return (
         <nav className={darkMode ? 'dark-mode' : ''}>

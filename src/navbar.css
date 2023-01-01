@@ -6,7 +6,6 @@ body {
     margin: 0;
 }
 
-
 nav {
     background-color: var(--navbar-bg-color);
     color: var(--navbar-text-color);
@@ -15,15 +14,13 @@ nav {
     align-items:stretch;
     gap: 2rem;
     padding: 1rem;
-  }
+}
   
   
-  .dark-mode {
-    --navbar-bg-color: #333;
-    --navbar-text-color: #fff;
-  }
-
-
+.dark-mode {
+--navbar-bg-color: #333;
+--navbar-text-color: #fff;
+}
 
 .darkModeBtn {
     background-color: #f0f0f0 ;
@@ -38,7 +35,6 @@ nav {
     text-decoration: underline;
     background-color: #bcbcbc;
 }
-
 
 .site-title {
     font-size: 2rem;

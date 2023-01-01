@@ -3,7 +3,7 @@ export default function Contact() {
     return (
         <>
         <h1>
-            Contact Me By Filling Out The Form Below
+            Contact Me By Filling Out The Email Form Below
         </h1>
         <div className='contactForm'>
             <form action='mailto:corbishleycollege@gmail.com' method='POST' encType='text/plain' name='EmailForm'>
