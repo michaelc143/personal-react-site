@@ -1,17 +1,12 @@
-:root {
-  --main-bg-color: #fff;
-  --main-text-color: #000;
-}
-
 .light-mode {
-  background-color: var(--navbar-bg-color);
-  color: var(--navbar-text-color);
+  background-color: rgb(217, 195, 158);
+  color: #333;
 }
 /* need to fiddle with ^ and v to match dark mode and set for navbar to be opposite of body */
 
 .dark-mode {
-  --main-bg-color: #333;;
-  --main-text-color: rgb(255, 253, 253);
+  background-color: #333;;
+  color: rgb(255, 253, 253);
 
 }
 

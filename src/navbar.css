@@ -18,8 +18,13 @@ nav {
   
   
 .dark-mode {
---navbar-bg-color: #333;
---navbar-text-color: #fff;
+    --navbar-bg-color: #333;
+    --navbar-text-color: rgb(217, 195, 158);
+}
+
+.light-mode {
+    --navbar-bg-color: rgb(217, 195, 158);
+    --navbar-text-color: #333;
 }
 
 .darkModeBtn {
