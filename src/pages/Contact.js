@@ -7,21 +7,22 @@ export default function Contact() {
         </h1>
         <div className='contactForm'>
             <form action='mailto:corbishleycollege@gmail.com' method='POST' encType='text/plain' name='EmailForm'>
-            <label for="Name">Your name</label>
+            <label for="Name" className='name-input'>Your name</label>
             <br />
             <input type="text" id="Name" name="Name" required></input>
             <br />
-            <label for="Email">Your email address</label>
+            <label for="Email" className='email-input'>Your email address</label>
             <br />
             <input type="email" id="Email" name="Email" required></input>
             <br />
-            <label for="Message">Your message</label>
+            <label for="Message" className='msg-input'>Your message</label>
             <br />
             <textarea id="Message" name="Message" rows="6" maxlength="3000" required></textarea>
             <br />
-            <button type="submit" value="Submit">Send</button>
+            <button type="submit" value="Submit" className='submit-btn'>Send</button>
             </form>
         </div>
+        <p className='hidden-txt'>Text</p>
         </>
     );
 }
