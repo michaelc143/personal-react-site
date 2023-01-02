@@ -2,9 +2,6 @@ import './Home.css';
 export default function Home() {
     return(
         <>
-        <div class="ocean">
-        <div class="wave"></div>
-        </div>
         <img src='https://avatars.githubusercontent.com/u/79810775?v=4' alt="Picture of me"></img>
        
         <p className='opening-paragraph'>Hey! My name is Michael Corbishley and I like to build stuff. I'm a third-year student at the 
