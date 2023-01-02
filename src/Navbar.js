@@ -6,7 +6,7 @@ export function Navbar() {
 
     return (
         <nav className='site-nav'>
-            <Link to="/" className="site-title">Michael Corbishley</Link>
+            <Link to="/personal-react-site" className="site-title">Michael Corbishley</Link>
             <ul>
                 <li>
                     <a href="https://github.com/michaelc143" target='_blank' rel='noreferrer'>Github</a>
