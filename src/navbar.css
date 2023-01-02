@@ -7,45 +7,20 @@ body {
 }
 
 nav {
-    background-color: var(--navbar-bg-color);
-    color: var(--navbar-text-color);
+    background-color: #333;
+    color: rgb(217, 195, 158);
     display: flex;
     justify-content: space-between;
     align-items:stretch;
     gap: 2rem;
     padding: 1rem;
 }
-  
-  
-.dark-mode {
-    --navbar-bg-color: #333;
-    --navbar-text-color: rgb(217, 195, 158);
-}
-
-.light-mode {
-    --navbar-bg-color: rgb(217, 195, 158);
-    --navbar-text-color: #333;
-}
-
-.darkModeBtn {
-    background-color: #f0f0f0 ;
-    border-color: black;
-    border-style: solid;
-    text-align: center;
-    text-decoration: none;
-    font-size: small;
-}
-
-.darkModeBtn:hover {
-    text-decoration: underline;
-    background-color: #bcbcbc;
-}
 
 .site-title {
     font-size: 2rem;
     text-align: center;
     margin: 0;
-    padding-left: 3rem;
+    padding-left: 1rem;
 
 }
 

@@ -1,12 +1,5 @@
-.light-mode {
-  background-color: rgb(217, 195, 158);
+.app-div {
+  /* background-color: rgb(217, 195, 158);  */
   color: #333;
-}
-/* need to fiddle with ^ and v to match dark mode and set for navbar to be opposite of body */
-
-.dark-mode {
-  background-color: #333;;
-  color: rgb(255, 253, 253);
-
 }
 

@@ -1,16 +1,16 @@
 import './navbar.css'
 import { Link } from 'react-router-dom';
-import {useState, useEffect} from 'react';
 
 export function Navbar() {
 
-    const [darkMode, setDarkMode] = useState(false); //darkmode setup stuff 
 
     return (
-        <nav className={darkMode ? 'dark-mode' : 'light-mode'}>
-            <button onClick={() => setDarkMode(!darkMode)}>Toggle Dark Mode</button>
-            <Link to="/" className="site-title">Home</Link>
+        <nav className='site-nav'>
+            <Link to="/" className="site-title">Michael Corbishley</Link>
             <ul>
+                <li>
+                    <Link to="/GraphicsProj">Graphics Proj</Link>
+                </li>
                 <li>
                     <a href="https://github.com/michaelc143" target='_blank' rel='noreferrer'>Github</a>
                 </li>
@@ -26,10 +26,4 @@ export function Navbar() {
     
 }
 
-export function getDarkMode() {
-    if(Navbar().darkMode === 'dark-mode')
-        return true;
-    else if(Navbar().darkMode === 'light-mode')
-        return false;
-}
 
