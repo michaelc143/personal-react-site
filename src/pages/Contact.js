@@ -2,7 +2,7 @@ import './Contact.css';
 export default function Contact() {
     return (
         <>
-            <h1>
+            <h1 className='contact-header'>
                 Contact Me By Filling Out The Email Form Below
             </h1>
             <div className='contactForm'>
