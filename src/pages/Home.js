@@ -4,7 +4,6 @@ export default function Home() {
     return(
         <>
         <img src='https://avatars.githubusercontent.com/u/79810775?v=4' alt="Picture of me"></img>
-        <p className='web-desc'>This entire website is coded in React.js and styled with traditional css</p>
         <div className="resume">
           <header>
             <h1>Michael Corbishley</h1>
@@ -26,7 +25,7 @@ export default function Home() {
                   <th>Experienced</th>
                 </tr>
                 <tr>
-                  <td>Java, React.JS, HTML/CSS</td>
+                  <td>Java, React.js, HTML/CSS</td>
                   <td>Python, C</td>
                 </tr>
               </table>
@@ -43,6 +42,7 @@ export default function Home() {
             </section>
           </main>
         </div>
+        <p className='web-desc'>This entire website is coded in React.js and styled with traditional css</p>
         <p className='hidden-txt'>Text</p>
         </>
     );

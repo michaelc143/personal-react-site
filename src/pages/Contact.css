@@ -10,7 +10,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-    margin-bottom: 15.8%;
+    margin-bottom: 17%;
     border-color: black;
     border-style: solid;
     width: 40%;
@@ -37,3 +37,18 @@
     padding-right: 0;
     width: 50%;
 }
+
+.web-desc {
+    background-color: #333;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-style: solid;
+    width:35%;
+  }
