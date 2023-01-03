@@ -17,7 +17,10 @@
     padding-top: 0.5rem;
 }
 
-.submit-btn, .name-input, .email-input, .msg-input {
+.submit-btn,
+.name-input,
+.email-input,
+.msg-input {
     color: black;
 }
 
@@ -32,7 +35,9 @@
     margin-bottom: 1rem;
 }
 
-.name-textbox, .email-textbox, .msg-textbox {
+.name-textbox,
+.email-textbox,
+.msg-textbox {
     padding-left: 0;
     padding-right: 0;
     width: 50%;
@@ -50,5 +55,5 @@
     margin-right: auto;
     border-color: black;
     border-style: solid;
-    width:35%;
-  }
+    width: 35%;
+}
