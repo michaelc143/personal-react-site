@@ -16,8 +16,7 @@
     padding-top: 0.5rem;
 }
 
-.submit-btn,
-.name-input,
+.submit-btn, .name-input,
 .email-input,
 .msg-input {
     color: black;
