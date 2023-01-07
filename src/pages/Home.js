@@ -22,10 +22,13 @@ export default function Home() {
             <table className='langs'>
               <tr>
                 <th>Proficient</th>
+                <th></th>
                 <th>Experienced</th>
               </tr>
               <tr>
                 <td>Java, React.js, HTML/CSS</td>
+                <td></td>
+                <td></td>
                 <td>Python, C</td>
               </tr>
             </table>
