@@ -2,7 +2,7 @@ import './Home.css';
 
 export default function Home() {
   return (
-    <>
+    <div className='homePage'>
       <img src='https://avatars.githubusercontent.com/u/79810775?v=4' alt="Picture of me"></img>
       <div className="resume">
         <header>
@@ -62,10 +62,10 @@ export default function Home() {
                 <th>Experienced</th>
               </tr>
               <tr>
-                <td>Java, React.js, HTML/CSS</td>
+                <td>Java, JavaScript, HTML/CSS</td>
                 <td></td>
                 <td></td>
-                <td>Python, C</td>
+                <td>Python, C, React, Three.JS</td>
               </tr>
             </table>
             <br />
@@ -74,6 +74,6 @@ export default function Home() {
       </div>
       <p className='web-desc'>This entire website is coded in React.js and styled with traditional css</p>
       <p className='hidden-txt'>Text</p>
-    </>
+    </div>
   );
 }
