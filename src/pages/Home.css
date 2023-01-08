@@ -2,6 +2,11 @@
   color: rgb(217, 195, 158);
 }
 
+h2 {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
 img {
   border-radius: 50%;
   height: 100%;
@@ -28,7 +33,8 @@ img {
 
 .education,
 .langs-header,
-.exp-header {
+.exp-header,
+.coursework {
   text-decoration: underline;
 }
 
@@ -93,4 +99,13 @@ img {
   border-color: black;
   border-style: solid;
   width: 35%;
+}
+
+.courses {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  text-align: center;
+  justify-content: center;
 }
