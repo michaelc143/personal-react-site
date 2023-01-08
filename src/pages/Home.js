@@ -9,8 +9,8 @@ export default function Home() {
           <h1>Michael Corbishley</h1>
           <h2>Computer Science Student</h2>
           <ul className='contact-info'>
-            <li>Email: corbishleymichael1@gmail.com</li>
-            <li>Phone: (925) - 872 - 8478</li>
+            <li>&#x1F4E9; corbishleymichael1@gmail.com</li>
+            <li>&#128241; (925) - 872 - 8478</li>
             <li>
               <a href='https://www.linkedin.com/in/michael-corbishley/' target='_blank'>
                 <button className='linkedin-btn'>LinkedIn</button>
