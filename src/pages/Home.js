@@ -35,7 +35,6 @@ export default function Home() {
             <h2 className='exp-header'>Experience / Projects</h2>
             <h3 className='entegral-header'>Entegral - Software Engineer Intern (Summer 2023)</h3>
             <h5 className='entegral-desc'>Incoming Software Engineer Intern for Full Stack Position at Entegral</h5>
-            <br />
             <h3 className='webDev-header'>WebDev UW (2020 - Current)</h3>
             <h5 className='webDev-desc'>UW-Madison student organization focused on web development</h5>
             <p className='webDev-summary'>WebHacks 2021: Tasked with creating a web application using React. <br />
