@@ -16,6 +16,11 @@ export default function Home() {
                 <button className='linkedin-btn'>LinkedIn</button>
               </a>
             </li>
+            <li>
+              <a href='https://github.com/michaelc143' target='_blank'>
+                <button className='github-btn'>Github</button>
+              </a>
+            </li>
           </ul>
         </header>
         <main>
