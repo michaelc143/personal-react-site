@@ -8,8 +8,15 @@ export default function Home() {
         <header>
           <h1>Michael Corbishley</h1>
           <h2>Computer Science Student</h2>
-          <p>Email: corbishleymichael1@gmail.com</p>
-          <p>Phone: (925) - 872 - 8478</p>
+          <ul className='contact-info'>
+            <li>Email: corbishleymichael1@gmail.com</li>
+            <li>Phone: (925) - 872 - 8478</li>
+            <li>
+              <a href='https://www.linkedin.com/in/michael-corbishley/' target='_blank'>
+                <button className='linkedin-btn'>LinkedIn</button>
+              </a>
+            </li>
+          </ul>
         </header>
         <main>
           <section>
