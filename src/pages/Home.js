@@ -5,24 +5,22 @@ export default function Home() {
     <div className='homePage'>
       <img src='https://avatars.githubusercontent.com/u/79810775?v=4' alt="Picture of me"></img>
       <div className="resume">
-        <header>
           <h1>Michael Corbishley</h1>
           <h2>Computer Science Student</h2>
-          <ul className='contact-info'>
-            <li>&#x1F4E9; corbishleymichael1@gmail.com</li>
-            <li>&#128241; (925) - 872 - 8478</li>
-            <li>
+          <div className='contact-info'>
+            <p>&#x1F4E9; corbishleymichael1@gmail.com</p>
+            <p>&#128241; (925) - 872 - 8478</p>
+            <p>
               <a href='https://www.linkedin.com/in/michael-corbishley/' target='_blank'>
                 <button className='linkedin-btn'>LinkedIn</button>
               </a>
-            </li>
-            <li>
+            </p>
+            <p>
               <a href='https://github.com/michaelc143' target='_blank'>
                 <button className='github-btn'>Github</button>
               </a>
-            </li>
-          </ul>
-        </header>
+            </p>
+          </div>
         <main>
           <section>
             <h2 className='education'>Education</h2>
@@ -32,15 +30,15 @@ export default function Home() {
 
           <section>
             <h2 className='coursework'>Relevant Coursework</h2>
-            <ul className='courses'>
-              <li>Computer Engineering & Memory Management</li>
-              <li>Introduction To Algorithms</li>
-              <li>Linear Algebra</li>
-              <li>Discrete Math</li>
-              <li>Introduction To Aritificial Intelligence</li>
-              <li>Computer Graphics</li>
-              <li>Java Programming (I - III)</li>
-            </ul>
+            <div className='courses'>
+              <p>Computer Engineering & Memory Management</p>
+              <p>Introduction To Algorithms</p>
+              <p>Linear Algebra</p>
+              <p>Discrete Math</p>
+              <p>Introduction To Aritificial Intelligence</p>
+              <p>Computer Graphics</p>
+              <p>Java Programming (I - III)</p>
+            </div>
           </section>
           
           <section>

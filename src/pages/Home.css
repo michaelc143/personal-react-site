@@ -3,8 +3,8 @@
 }
 
 h2 {
-  padding-bottom: 0.75rem;
-  padding-top: 0.75rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 img {
@@ -109,13 +109,27 @@ img {
 
 .courses,
 .contact-info {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+.contact-info {
+  column-gap: 0.5rem;
+  row-gap: 1rem;
+}
+
+.courses {
+  column-gap: 0rem;
+  row-gap: 0rem;
+}
+
+.courses p {
+  padding-inline: 0.5rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 .entegral-desc {
