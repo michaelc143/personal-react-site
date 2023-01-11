@@ -11,6 +11,7 @@ function App() {
     <Navbar />
       <Routes>
         <Route path='/personal-react-site/' element={<Home />} />
+        <Route path='/threeProj' element={<threeProj />} />
         <Route path='/Contact' element={<Contact />} />
       </Routes>
     </div>

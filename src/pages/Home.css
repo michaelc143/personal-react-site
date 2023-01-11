@@ -108,17 +108,20 @@ img {
 }
 
 .courses,
-.contact-info {
+.contact-info,
+.contact-info2 {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 }
 
-.contact-info {
+.contact-info,
+.contact-info2 {
   column-gap: 0.5rem;
   row-gap: 1rem;
+  align-items: baseline;
 }
 
 .courses {

@@ -10,16 +10,14 @@ export default function Home() {
           <div className='contact-info'>
             <p>&#x1F4E9; corbishleymichael1@gmail.com</p>
             <p>&#128241; (925) - 872 - 8478</p>
-            <p>
-              <a href='https://www.linkedin.com/in/michael-corbishley/' target='_blank'>
-                <button className='linkedin-btn'>LinkedIn</button>
-              </a>
-            </p>
-            <p>
-              <a href='https://github.com/michaelc143' target='_blank'>
-                <button className='github-btn'>Github</button>
-              </a>
-            </p>
+          </div>
+          <div className='contact-info2'>
+            <a href='https://www.linkedin.com/in/michael-corbishley/' target='_blank'>
+              <button className='linkedin-btn'>LinkedIn</button>
+            </a>
+            <a href='https://github.com/michaelc143' target='_blank'>
+              <button className='github-btn'>Github</button>
+            </a>
           </div>
         <main>
           <section>

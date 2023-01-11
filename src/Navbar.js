@@ -9,6 +9,9 @@ export function Navbar() {
             <Link to="/personal-react-site/" className="site-title">Michael Corbishley</Link>
             <ul>
                 <li>
+                    <Link to='/threeProj'>3js Project</Link>
+                </li>
+                <li>
                     <Link to="/Contact">Contact</Link>
                 </li>
             </ul>
