@@ -51,19 +51,16 @@ export default function Home() {
           </section>
           <section>
             <h2 className='langs-header'>Skills / Languages</h2>
-            <table className='langs'>
-              <tr>
-                <th>Proficient</th>
-                <th></th>
-                <th>Experienced</th>
-              </tr>
-              <tr>
-                <td>Java, JavaScript, HTML/CSS</td>
-                <td></td>
-                <td></td>
-                <td>Python, C, React, Three.JS</td>
-              </tr>
-            </table>
+            <div className='langs'>
+              <div className='lang-level'>
+                <p>Proficient</p>
+                <p>Experienced</p>
+              </div>
+              <div className='lang-names'>
+                <p>Java, JavaScript, HTML/CSS</p>
+                <p>Python, C, React, Three.JS</p>
+              </div>
+            </div>
             <br />
           </section>
         </main>

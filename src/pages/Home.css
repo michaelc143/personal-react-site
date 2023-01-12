@@ -38,39 +38,21 @@ img {
   text-decoration: underline;
 }
 
-.langs {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content:baseline;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 3rem;
-  gap: 0.25rem;
-  border: solid;
-  border-color: black;
-  background-color: rgb(217, 195, 158);
-  color: #333;
-  grid-row: inherit;
-  grid-column: inherit;
-}
-
-.langs th {
-  text-decoration: underline;
-  padding-inline: 1.5rem;
-  padding-right: 0rem;
-  padding-left: 2.9rem;
-}
-
-.lands td {
-  row-gap: 2rem;
-}
 
 .webDev-summary {
   padding-right: 3rem;
   padding-left: 3rem;
   font-size: 0.8rem;
+}
+
+.lang-level,
+.lang-names {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lang-level {
+  text-decoration: underline;
 }
 
 .webDev-header,
@@ -144,6 +126,7 @@ img {
   color: rgb(255, 255, 255);
   border-style: solid;
   border-color: #333;
+  border-radius: 15px;
 }
 
 .github-btn {
@@ -151,4 +134,5 @@ img {
   color: rgb(50, 51, 48);
   border-style: solid;
   border-color: #333;
+  border-radius: 15px;
 }
