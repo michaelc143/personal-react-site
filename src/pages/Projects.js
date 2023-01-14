@@ -11,11 +11,35 @@ export default function Projects() {
                         </h3>
                         <p>
                             PROJECT DESCRIPTION
+                            
+                            -
+                            -
+                            -
+                            -
+                            -
+                            -
+                            -
+                            -
+                            -
+                            -
+                            -
+                            -
+                            -
+                            -
+                            -
+                            -
+                            -
+                            -
+                            -
+
+                            -
                         </p>
+                        <p>0</p>
+                        <p>0</p>
                     </div>
                     <div className='cube-animation-gif'>
-                    <img src='/triangle-hw.gif' alt="Picture of me">
-                    </img>
+                        <img src='https://github.com/michaelc143/personal-react-site/blob/main/src/pages/triangle.gif?raw=true' alt="Picture of me">
+                        </img>
                     </div>
                 </div>
             </div>
