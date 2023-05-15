@@ -33,9 +33,11 @@ export default function Home() {
               <p>Introduction To Algorithms</p>
               <p>Linear Algebra</p>
               <p>Discrete Math</p>
-              <p>Introduction To Aritificial Intelligence</p>
+              <p>Artificial Intelligence</p>
               <p>Computer Graphics</p>
               <p>Java Programming (I - III)</p>
+              <p>Operating Systems</p>
+              <p>Cryptography</p>
             </div>
           </section>
           

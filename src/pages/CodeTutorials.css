@@ -1,0 +1,22 @@
+.code-tutorials-page {
+    color: white;
+}
+
+.tutorials-table {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 0.05rem;
+}
+
+.tutorials-table th{
+    padding-bottom: 1rem;
+}
+
+.open-source-link {
+    color: white;
+}
+
+.hidden-txt {
+    text-decoration: none;
+    padding-top: 25rem;
+}

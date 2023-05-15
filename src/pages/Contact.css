@@ -61,4 +61,5 @@
     margin-bottom: 2rem;
     display: flex;
     justify-content: center; /*center on the x-plane */
+    color: white;
 }

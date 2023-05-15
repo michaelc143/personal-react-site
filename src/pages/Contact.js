@@ -22,7 +22,7 @@ export default function Contact() {
                     <button type="submit" value="Submit" className='submit-btn'>Send</button>
                 </form>
             </div>
-            <p className='web-desc'>This entire website is coded in React.js and styled with traditional css</p>
+            {/* <p className='web-desc'>This entire website is coded in React.js and styled with traditional css</p> */}
             <p className='hidden-txt'>Text</p>
         </>
     );
