@@ -29,6 +29,14 @@ export default function CodeTutorials() {
                     <a href='https://github.com/michaelc143/OpenAiChatBot/tree/main' className='open-source-link'>Link</a>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    Collection of Three.JS and OpenGL Animations
+                </td>
+                <td>
+                    <a href='https://github.com/michaelc143/Computer-Graphics-Fall-2022' className='open-source-link'>Link</a>
+                </td>
+            </tr>
             </table>
             <p className='hidden-txt'>Hiddentext</p>
         </div>
