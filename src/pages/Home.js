@@ -7,10 +7,6 @@ export default function Home() {
       <div className="resume">
           <h1>Michael Corbishley</h1>
           <h2>Computer Science Student</h2>
-          <div className='contact-info'>
-            <p>&#x1F4E9; corbishleymichael1@gmail.com</p>
-            <p>&#128241; (925) - 872 - 8478</p>
-          </div>
           <div className='contact-info2'>
             <a href='https://www.linkedin.com/in/michael-corbishley/' target='_blank'>
               <button className='linkedin-btn'>LinkedIn</button>
@@ -18,6 +14,9 @@ export default function Home() {
             <a href='https://github.com/michaelc143' target='_blank'>
               <button className='github-btn'>Github</button>
             </a>
+          </div>
+          <div className='contact-info'>
+            <p>&#x1F4E9; mcorbishley@wisc.edu</p>
           </div>
         <main>
           <section>
@@ -54,13 +53,8 @@ export default function Home() {
           <section>
             <h2 className='langs-header'>Skills / Languages</h2>
             <div className='langs'>
-              <div className='lang-level'>
-                <p>Proficient</p>
-                <p>Experienced</p>
-              </div>
               <div className='lang-names'>
-                <p>Java, JavaScript, HTML/CSS</p>
-                <p>Python, C, React, Three.JS</p>
+                <p>Java, JavaScript, HTML, CSS, Python, C, React, Three.JS, Git, Bash</p>
               </div>
             </div>
             <br />

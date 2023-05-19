@@ -9,7 +9,7 @@ export function Navbar() {
             <Link to="/personal-react-site/" className="site-title">Michael Corbishley</Link>
             <ul>
                 <li>
-                    <Link to="/CodeTutorials">Code Tutorials</Link>
+                    <Link to="/CodeTutorials">Open Source Projects</Link>
                 </li>
                 <li>
                     <Link to="/Contact">Contact</Link>

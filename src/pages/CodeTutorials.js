@@ -3,7 +3,7 @@ import './CodeTutorials.css';
 export default function CodeTutorials() {
     return(
         <div className='code-tutorials-page'>
-            <p>Open Source Code / Previous Projects</p>
+            <h1>Open Source Code / Previous Projects</h1>
             <table className='tutorials-table'> 
             <tr>
                 <th>
