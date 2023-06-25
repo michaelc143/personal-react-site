@@ -54,7 +54,7 @@ export default function Home() {
             <h2 className='langs-header'>Skills / Languages</h2>
             <div className='langs'>
               <div className='lang-names'>
-                <p>Java, JavaScript, HTML, CSS, Python, C, React, Three.JS, Git, Bash</p>
+                <p>Java, JavaScript, HTML, CSS, Python, C, React, Three.JS, Git, Bash, Docker, Angular, Spring Boot, Ci/Cd Deployment</p>
               </div>
             </div>
             <br />
