@@ -42,9 +42,12 @@ export default function Home() {
           
           <section>
             <h2 className='exp-header'>Experience / Projects</h2>
-            <h3 className='entegral-header'>Entegral - Software Engineer Intern (Summer 2023)</h3>
-            <h5 className='entegral-desc'>Incoming Software Engineer Intern for Full Stack Position at Entegral</h5>
-            <h3 className='webDev-header'>WebDev UW (2020 - Current)</h3>
+            <h3 className='entegral-header'>Entegral - Software Engineer Intern (August 2023 - Current)</h3>
+            <h5 className='entegral-desc'>Software Engineer Intern for Full Stack Position at Entegral</h5>
+              <ul>
+                <li className='entegral-desc'>Developed, tested, and deployed user interface features in Angular TypeScript, as well as new API endpoints and features in Java Spring Boot</li>
+              </ul>
+            <h3 className='webDev-header'>WebDev UW (August 2020 - Current)</h3>
             <h5 className='webDev-desc'>UW-Madison student organization focused on web development</h5>
             <p className='webDev-summary'>WebHacks 2021: Tasked with creating a web application using React. <br />
               Group App Idea: Bingo game to teach Computer Science to users. <br />
@@ -54,7 +57,7 @@ export default function Home() {
             <h2 className='langs-header'>Skills / Languages</h2>
             <div className='langs'>
               <div className='lang-names'>
-                <p>Java, JavaScript, HTML, CSS, Python, C, React, Three.JS, Git, Bash, Docker, Angular, Spring Boot, Ci/Cd Deployment</p>
+                <p>Java, JavaScript, TypeScript, HTML, CSS, Python, C, React, Three.JS, Git, Bash, Docker, Angular, Spring Boot, Ci/Cd Deployment</p>
               </div>
             </div>
             <br />

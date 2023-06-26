@@ -66,6 +66,7 @@ img {
 .webDev-desc,
 .entegral-desc {
   font-size: 0.7rem;
+  list-style: none;
 }
 
 .hidden-txt {
