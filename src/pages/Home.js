@@ -45,7 +45,7 @@ export default function Home() {
             <h3 className='entegral-header'>Entegral - Software Engineer Intern (August 2023 - Current)</h3>
             <h5 className='entegral-desc'>Software Engineer Intern for Full Stack Position at Entegral</h5>
               <ul>
-                <li className='entegral-desc'>Developed, tested, and deployed user interface features in Angular TypeScript, as well as new API endpoints and features in Java Spring Boot</li>
+                <li className='webDev-summary'>Developed, tested, and deployed user interface features in Angular TypeScript, as well as new API endpoints and features in Java Spring Boot</li>
               </ul>
             <h3 className='webDev-header'>WebDev UW (August 2020 - Current)</h3>
             <h5 className='webDev-desc'>UW-Madison student organization focused on web development</h5>
