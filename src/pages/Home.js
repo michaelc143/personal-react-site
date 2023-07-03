@@ -3,7 +3,9 @@ import './Home.css';
 export default function Home() {
   return (
     <div className='homePage'>
-      <img src='https://avatars.githubusercontent.com/u/79810775?v=4' alt="Picture of me"></img>
+      <div className='img-container'>
+        <img src='https://avatars.githubusercontent.com/u/79810775?v=4' alt="Picture of me"></img>
+      </div>
       <div className="resume">
           <h1>Michael Corbishley</h1>
           <h2>Computer Science Student</h2>
