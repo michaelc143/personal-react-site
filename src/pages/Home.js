@@ -44,10 +44,26 @@ export default function Home() {
           
           <section>
             <h2 className='exp-header'>Experience / Projects</h2>
-            <h3 className='entegral-header'>Entegral - Software Engineer Intern (August 2023 - Current)</h3>
-            <h5 className='entegral-desc'>Software Engineer Intern for Full Stack Position at Entegral</h5>
+            <h3 className='entegral-header'>Entegral - Software Engineer Intern (May 2023 - August 2023)</h3>
+            <h3 className='entegral-desc'>Full Stack Software Engineer Intern for Summer 2023 at Entegral</h3>
               <ul>
-                <li className='webDev-summary'>Developed, tested, and deployed user interface features in Angular TypeScript, as well as new API endpoints and features in Java Spring Boot</li>
+                <li className='webDev-summary'>
+                Engineered and deployed captivating user interface features using Angular TypeScript, while seamlessly integrating 
+                cutting-edge API endpoints and functionalities within Java Spring Boot.
+                </li>
+                <li className='webDev-summary'>
+                Contributed to the development of an internal machine learning tool used to clean body shop data. This includes creating a Gitlab ci/cd 
+                pipeline, establishing connection to, storing data with, and deploying workloads into Google Cloud Platform, as well as adding 
+                documentation, linting and metric collection to the tool.
+                </li>
+                <li className='webDev-summary'>
+                Enhanced my professional development by actively participating in weekly 2-3 hour-long technology seminars covering a diverse range of 
+                topics such as microservice architecture, machine learning, and cloud deployment.
+                </li>
+                <li className='webDev-summary'>
+                Collaborated with business representatives in bi-weekly meetings to showcase ongoing progress towards quarterly objectives and deliver 
+                captivating demonstrations of new features to stakeholders.
+                </li>
               </ul>
             <h3 className='webDev-header'>WebDev UW (August 2020 - Current)</h3>
             <h5 className='webDev-desc'>UW-Madison student organization focused on web development</h5>
@@ -66,7 +82,6 @@ export default function Home() {
           </section>
         </main>
       </div>
-      <p className='web-desc'>This entire website is coded in React.js and styled with traditional css</p>
       <p className='hidden-txt'>Text</p>
     </div>
   );
